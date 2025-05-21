@@ -10,4 +10,6 @@ among others.
 
 $: ./python.py > out.txt
 
-if the output has something like CONTROL_16, it needs more refinement
+comment out the line `print(f"{counter:<10}{hex_code:<15}{char}")` since
+it is just a debug line to check the logic paths of the various characters 
+as found empirically
