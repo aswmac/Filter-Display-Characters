@@ -8,3 +8,6 @@ has many "invisible" characters that do not show up on cat, but if do
 nano they make the file unreadable. They look like ^[[?25l and ^[[?25h 
 among others.
 
+$: ./python.py > out.txt
+
+if the output has something like CONTROL_16, it needs more refinement
